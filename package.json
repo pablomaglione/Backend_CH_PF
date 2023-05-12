@@ -1,0 +1,30 @@
+{
+  "name": "backend_ch_pf",
+  "version": "1.0.0",
+  "description": "Proyecto Final de Backend - Coderhouse",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablomaglione/Backend_CH_PF.git"
+  },
+  "author": "Pablo Maglione",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pablomaglione/Backend_CH_PF/issues"
+  },
+  "homepage": "https://github.com/pablomaglione/Backend_CH_PF#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "connect-mongo": "^5.0.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mongoose-paginate-v2": "^1.7.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.22",
+    "socket.io": "^4.6.1"
+  }
+}
